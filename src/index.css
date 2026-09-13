@@ -17,6 +17,13 @@ body {
     color: #111827;
 }
 
+.brand-gradient {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .brand-gradient-bg {
     background: var(--brand-gradient);
 }
