@@ -1,8 +1,9 @@
+import Navbar from "./components/Navbar/Navbar"
 
 function App() {
 
   return (
-   <h1>Welcome to Dev Stack</h1>
+   <Navbar/>
   )
 }
 
