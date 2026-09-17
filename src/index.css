@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+:root {
+    --brand-gradient: linear-gradient(135deg,
+            #f97316 0%,
+            #ec4899 50%,
+            #8b5cf6 100%);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #ffffff;
+    color: #111827;
+}
+
+.brand-gradient-bg {
+    background: var(--brand-gradient);
+}
