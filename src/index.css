@@ -20,3 +20,11 @@ body {
 .brand-gradient-bg {
     background: var(--brand-gradient);
 }
+
+
+.brand-gradient {
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
